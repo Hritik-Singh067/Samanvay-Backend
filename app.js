@@ -14,7 +14,7 @@ config({});
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL_ONE, process.env.FRONTEND_URL_TWO],
+    origin: [process.env.FRONTEND_URL_ONE, samanvay-dashboard-6cii4pao6-hritiksingh067s-projects.vercel.app],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
